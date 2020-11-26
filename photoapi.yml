@@ -1,0 +1,8 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  name: photoapi
+data:
+  clientid: ZzRlMlVCSWFlNzF5V05rOUs4aXByOEhwT20zYjNxa3FGaU9kYnJTTW1tTQ==
+type: Opaque
+

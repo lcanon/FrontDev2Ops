@@ -1,0 +1,15 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  annotations:
+    template.openshift.io/expose-database_name: '{.data[''database-name'']}'
+    template.openshift.io/expose-password: '{.data[''database-password'']}'
+    template.openshift.io/expose-username: '{.data[''database-user'']}'
+  name: postgresql
+  labels:
+    template: postgresql-persistent-template
+data:
+  database-name: c2FtcGxlZGI=
+  database-password: VXFjTnc4Q3c4ZlVvcXB5eA==
+  database-user: dXNlclREMA==
+type: Opaque

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Environment
+. ./environment.sh
+
+. ./deploy-database.sh
+. ./deploy-rest-goals.sh
+. ./deploy-rest-users.sh
+. ./deploy-rest-advice.sh
+. ./deploy-frontend.sh
