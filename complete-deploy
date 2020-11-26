@@ -3,6 +3,8 @@
 # Environment
 . ./environment.sh
 
+oc new-project ${PROJECT_NAME}
+
 . ./deploy-database.sh
 . ./deploy-rest-goals.sh
 . ./deploy-rest-users.sh
